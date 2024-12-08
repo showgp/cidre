@@ -46,7 +46,6 @@ full = [
   "mps",
   "mpsg",
   "dispatch",
-  "da",
   "simd",
   "cat",
   "vn",
@@ -84,6 +83,7 @@ cf = []
 cat = []
 simd = []
 app = ["ns"]
+dacf = ["da", "cf"]
 am = ["private", "cf", "dep:tokio"]
 at = ["cf", "cat"]
 av = ["ns", "ut", "cv", "ca", "at"]
